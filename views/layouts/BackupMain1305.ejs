@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+  <base href="/">
+  <script src="/dmxAppConnect/dmxAppConnect.js"></script>
+  <meta charset="UTF-8">
+  <title>Untitled Document</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/bootstrap/5/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="/dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
+  <script src="/dmxAppConnect/dmxRouting/dmxRouting.js" defer></script>
+  <script src="/dmxAppConnect/dmxFormatter/dmxFormatter.js" defer></script>
+  <script src="/dmxAppConnect/dmxTyped/dmxTyped.js" defer></script>
+  <script src="/dmxAppConnect/dmxTyped/typed.min.js" defer></script>
+  <script src="/dmxAppConnect/dmxStateManagement/dmxStateManagement.js" defer></script>
+</head>
+
+<body id="main2" is="dmx-app">
+  <dmx-value id="menu_is_deploy" dmx-bind:value="1"></dmx-value>
+
+  <div class="row mt-0 mb-0 ms-0 me-0 pt-0 pb-0 ps-0 pe-0">
+    <div class="mt-0 mb-0 ms-0 me-0 pt-0 pb-0 ps-0 pe-0 d-flex col-auto bg-dark leftmenubloc flex-column justify-content-between" id="LeftMenu">
+
+
+
+
+
+
+      <div class="d-flex flex-row text-light appliname justify-content-center" id="Application">
+
+
+        <i class="fab fa-gg-circle fa-2x"></i>
+        <h3 class="mt-0 mb-0 ms-0 me-0 pt-0 pb-0 ps-2 pe-2" dmx-show="menu_is_deploy.value==1" dmx-hide="menu_is_deploy.value==0">BhcaSaas</h3>
+      </div>
+      <div class="d-flex flex-row text-light justify-content-center ps-2 pe-2" id="MenuGeneral">
+
+
+        <button id="MenuGal" class="btn btn-sm btn-primary pt-2 pb-2 w-100"><i class="fas fa-cogs fa-2x"></i></button>
+      </div>
+      <div class="d-flex leftmenuaction flex-column text-center" id="ModulesActions">
+        <h6 class="lh-sm text-light">Modules</h6>
+
+        <div class="nav w-100 flex-column justify-content-start mt-1 text-start">
+          <a class="nav-item nav-link leftmenuitems" href="#"><i class="fas fa-briefcase fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Affaire</small></a>
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-address-card fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Entreprises</small></a>
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-project-diagram fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Materiels</small></a>
+
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-boxes fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Modulesexp1</small></a>
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-stream fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Modulesexp2</small></a>
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-euro-sign fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Modulesexp3</small></a>
+
+        </div>
+      </div>
+      <div class="d-flex leftmenuaction flex-column text-center" id="ModulesGed">
+        <h6 class="lh-sm text-light">GED</h6>
+        <div class="nav w-100 flex-column justify-content-start mt-1 text-start">
+          <a class="nav-item nav-link leftmenuitems" href="#"><i class="fas fa-copy fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Documents</small></a>
+
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-image fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Photos</small></a><a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-envelope fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Courriers</small></a>
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-paper-plane fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Mails</small></a>
+
+          <a class="nav-item nav-link leftmenuitems mt-1" href="#"><i class="fas fa-link fa-lg fa-fw"></i>
+            <small dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Documents externes</small></a>
+
+        </div>
+      </div>
+      <div class="d-flex pt-2 pb-2 ps-2 pe-2" id="Utilisateur">
+        <button id="btnEspaceUser" class="btn btn-success w-100">
+          <i class="fas fa-user-cog fa-lg"></i><span class="badge bg-success" dmx-hide="menu_is_deploy.value==0" dmx-show="menu_is_deploy.value==1">Philippe FERNANDES</span>
+        </button>
+      </div>
+    </div>
+    <div class="mt-0 mb-0 ms-0 me-0 pt-0 pb-0 ps-0 pe-0 d-flex col w-auto flex-column" dmx-on:click="">
+      <div class="row w-auto row-cols-3 mt-0 mb-0 ms-0 me-0 pt-1 pb-1 ps-0 pe-0 topmenu bg-white">
+        <div class="col ms-0 me-0 ps-0 pe-0 w-25">
+          <div class="nav w-100"><a class="nav-item nav-link topmenuitems" href="#" dmx-on:click="run({condition:{if:`menu_is_deploy.value==1`,then:{steps:{run:{action:`menu_is_deploy.setValue(0)`}}},else:{steps:{run:{action:`menu_is_deploy.setValue(1)`}}}}})"><i class="fas fa-bars"></i>
+            </a>
+            <a class="nav-item nav-link topmenuitems" href="#"><span style="font-size: 15.75px;">Home</span></a>
+          </div>
+
+        </div>
+        <div class="col ms-0 me-0 ps-0 pe-0 align-self-center text-center w-50">
+          <div class="d-flex flex-row justify-content-between align-items-center">
+            <h3>Fancy display heading</h3>
+          </div>
+
+
+
+        </div>
+        <div class="col ms-0 me-0 ps-0 pe-0 align-self-start text-end w-25">
+          <button id="btnNotifs" class="btn mt-1 mb-1 topmenuitems btn-sm"><i class="far fa-bell"></i><span class="badge rounded-pill bg-success topmenulabels">12</span></button>
+
+          <button id="btnDocker" class="btn mt-1 mb-1 topmenuitems btn-sm"><i class="far fa-copy"></i><span class="badge rounded-pill bg-success topmenulabels">12</span></button>
+        </div>
+      </div>
+
+      <div class="row w-auto mt-0 mb-0 ms-0 me-0 pt-2 pb-2 ps-2 pe-2">
+        <div is="dmx-view" id="content" class="style2">
+          <%- await include(content, locals); %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

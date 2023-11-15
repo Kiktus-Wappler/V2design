@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "page": "index",
+      "layout": "main",
+      "name": "Index"
+    }
+  ]
+}

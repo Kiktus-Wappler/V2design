@@ -1,0 +1,167 @@
+/*
+-------------------------------
+-        Main page            -
+-------------------------------
+*/
+.leftmenubloc {
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    left: 0px
+}
+.appliname {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.leftmenuitems {
+    color: var(--bs-light);
+    font-size: 16px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.leftmenuitems:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);  
+}
+.leftmenuitems:focus {
+    color: var(--bs-dark);
+    background-color: rgba(255, 255, 255, 1);
+}
+.itemtitle {
+    margin-left: 8px
+}
+.leftmenuaction {
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.topmenu {
+    position: sticky;
+    top: 0px;
+    border-bottom: solid rgba(0, 0, 0, 0.1);
+    border-width: 2px
+}
+.topmenuitems {
+    color: var(--bs-light);
+    font-size: 18px
+}
+.topmenuitems:hover {
+    color: var(--bs-black)
+}
+.topmenulabels {
+    float: right;
+    font-size: 10px
+}
+
+
+/* Non checked */
+
+
+
+
+.style1 {
+    border-color: #0d6efd
+}
+
+
+
+
+.style2 {
+    border-left-width: 4px;
+    border-left-color: #0d6efd
+}
+
+
+
+
+.style3 {
+    border-width: 3px 0px 0px;
+    border-color: #138496
+}
+
+
+.style6 {
+    font-size: 20px
+}
+
+
+.style4 {
+    width: 35px
+}
+
+
+.style5 {
+    width: 120px;
+    height: 120px
+}
+
+
+.style7 {
+    width: 115px
+}
+
+
+.style8 {
+    width: 95px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+
+
+.style9 {
+    border-width: 1px;
+    border-color: #0d6efd;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #fff;
+    width: 75%
+}
+
+
+.style10 {
+    border-left-width: 0px;
+    border-color: #0d6efd;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: #fff}
+
+
+.style11 {
+    border-width: 2px
+}
+
+
+.style12 {
+    border-width: 2px
+}
+
+
+.style13 {
+    border-width: 2px
+}
+
+
+.style14 {
+}
+
+
+.style15 {
+}
+
+
+
+
+
+
+
+
+
+
+
+

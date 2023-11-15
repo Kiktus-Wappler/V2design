@@ -1,0 +1,19 @@
+{
+  "bootstrap5": {
+    "basic": {
+      "theme": "Fresca",
+      "primary": "#0069D9",
+      "success": "#218838",
+      "info": "#138496",
+      "link-color": "#007bff",
+      "headings-font-family": "Source Sans Pro:400",
+      "secondary": "#5A6268",
+      "danger": "#C82333",
+      "warning": "#E0A800",
+      "light": "#B2B6BD",
+      "dark": "#343A40",
+      "body-bg": "#F4F6F9"
+    },
+    "advanced": {}
+  }
+}
